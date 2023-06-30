@@ -1,0 +1,18 @@
+1. Abrir SQL PLUS
+
+2. Conectarse como SYSDBA
+
+3. Crear el usuario de la base de datos
+
+create user c##ProyectoFinal identified by 123;
+
+4. Darle todos los privilegios de dba al usuario
+
+grant dba to c##ProyectoFinal;
+
+5. Ya en sql developer creamos la conexion con el usuario c##ProyectoFinal
+
+***NOTA IMPORTANTE***
+
+Si la conexion no funciona, fijarse correctamente en el SID de la Base de Datos ya que este puede ORCL u otro nombre.
+
